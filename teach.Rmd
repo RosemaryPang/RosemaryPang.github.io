@@ -1,0 +1,61 @@
+---
+---
+<style type="text/css">
+
+body, td {
+   font-size: 16px;
+}
+code.r{
+  font-size: 12px;
+}
+pre {
+  font-size: 12px
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<font size='5'><b> Teaching Experience </b></font>
+
+PLSC 414: Dictators and Their Demise, Summer 2019, Penn State University
+
+POL 141: Governments of the World, Spring 2016, Purdue University
+
+* [Syllabus](syllabus141.pdf)
+* Student Evaluation: 3.6/5
+
+POL223 Introduction to Environmental Policy – Distance Learning, Purdue University
+
+* [Syllabus](POL223summer2015.pdf)
+* Student Evaluation: 4/5
+
+<font size='5'><b> Guest Lecture </b></font>
+
+Comparative Politics (Penn State University)
+
+* Varieties of dictators
+
+Survey Data Analysis (Penn State University)
+
+* Missing data in survey analysis
+
+Environmental Policy (Purdue University)
+
+* Environmental Leadership
+* Civil Society and Community Based Conservation
+* Free Trade and Environment
+* Environmental Policies in Different Regime Types
+* Energy Policy
+* Risk Perceptions and Assessment
+* Apply Market Principles to Environmental Policy
+
+International Relations (Purdue University)
+
+* Human rights
+* Mid-term review session
+* Realism
+* Introducing regime types
+
+<font size='5'><b> Invited Talks </b></font>
+
+Measurement in Political Science: Traditional and Big Data Approaches (China University of Political Science and Law; North- eastern University, China)

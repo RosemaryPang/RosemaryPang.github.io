@@ -1,0 +1,29 @@
+name: "M. Rosemary Pang"
+output_dir: "."
+navbar:
+  title: "M. Rosemary Pang"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Book Project"
+      href: book.html
+    - text: "Research"
+      href: research.html
+    - text: "Teaching"
+      href: teach.html
+  right:
+    - icon: fa-envelope
+      href: mailto:rosemaryminpang@gmail.com
+    - icon: fa-github
+      href: https://github.com/RosemaryPang
+   # - icon: fa-researchgate
+   #   href: https://www.researchgate.net/profile/M_Pang2
+    - icon: fa-google
+      href: https://scholar.google.com/citations?user=YeBvEPcAAAAJ&hl=en&oi=ao 
+    - icon: fa-tree
+      href: https://polisci.la.psu.edu/people/mzp36
+    
+output: 
+  html_document:
+     theme: paper
+     css: "styles.css"

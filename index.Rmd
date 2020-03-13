@@ -1,0 +1,24 @@
+---
+---
+<style type="text/css">
+
+body, td {
+   font-size: 16px;
+}
+code.r{
+  font-size: 12px;
+}
+pre {
+  font-size: 12px
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<img src="IMG_1702.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+
+I am a Ph.D. candidate in [Political Science](https://polisci.la.psu.edu/) and [Social Data Analytics](https://soda.la.psu.edu/) dual program at the Pennsylvania State University. Prior to arriving at Penn State, I got a master degree from [Purdue University](https://cla.purdue.edu/academic/polsci/) and a bachelor degree from the [University of Nottingham Ningbo China](https://www.nottingham.edu.cn/en/internationalstudies/home.aspx). I expect to graduate in <b> May 2020 </b>.
+
+I study the politics in autocracies with a current focus on <b>party institutionalization</b> and <b>corruption</b>. While conducting research on authoritarian regimes from a comparative perspective, I have expertise in Chinese Politics. Methodologically, my research focuses on computational social science, natural language process in English and Chinese (e.g. Text Mining, quantitative text analysis), and measurement. 
+
+My CV is available [here](CV_Pang.pdf)
