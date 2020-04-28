@@ -17,7 +17,7 @@ pre {
 
 <font size='5'><b> Teaching Experience </b></font>
 
-PLSC 414: Dictators and Their Demise, Summer 2019, Penn State University
+PLSC 414: Dictators and Their Demise, Summer 2020, Penn State University
 
 POL 141: Governments of the World, Spring 2016, Purdue University
 
@@ -59,3 +59,6 @@ International Relations (Purdue University)
 <font size='5'><b> Invited Talks </b></font>
 
 Measurement in Political Science: Traditional and Big Data Approaches (China University of Political Science and Law; North- eastern University, China)
+
+
+
