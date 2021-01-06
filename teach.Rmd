@@ -34,15 +34,16 @@ POL223 Introduction to Environmental Policy – Distance Learning, Purdue Univer
 
 <font size='5'><b> Guest Lectures </b></font>
 
-Comparative Politics (Penn State University)
+Comparative Politics 
 
 * Varieties of dictators
+* Corruption in China
 
-Survey Data Analysis (Penn State University)
+Survey Data Analysis 
 
 * Missing data in survey analysis
 
-Environmental Policy (Purdue University)
+Environmental Policy 
 
 * Environmental leadership
 * Civil society and community based conservation
@@ -52,7 +53,7 @@ Environmental Policy (Purdue University)
 * Risk perceptions and assessment
 * Apply market principles to environmental policy
 
-International Relations (Purdue University)
+International Relations 
 
 * Human rights
 * Mid-term review session
