@@ -17,22 +17,20 @@ pre {
 
 <font size='5'><b> Teaching Experience </b></font>
 
-PLSC 498.2: Political Survey Design and Analysis, Fall 2021, Penn State University
-
 PLSC 414: Dictators and Their Demise, Summer 2020, Penn State University
 
 * [Syllabus](syllabus414.pdf)
-* Student Evaluation: 7/7
+* Student Evaluation Mean: 7/7
 
 POL 141: Governments of the World, Spring 2016, Purdue University
 
 * [Syllabus](syllabus141.pdf)
-* Student Evaluation: 3.6/5
+* Student Evaluation Mean: 3.6/5
 
 POL223 Introduction to Environmental Policy – Distance Learning, Purdue University
 
 * [Syllabus](POL223summer2015.pdf)
-* Student Evaluation: 4/5
+* Student Evaluation Mean: 4/5
 
 <font size='5'><b> Guest Lectures </b></font>
 
