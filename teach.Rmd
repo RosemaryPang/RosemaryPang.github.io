@@ -17,6 +17,8 @@ pre {
 
 <font size='5'><b> Teaching Experience </b></font>
 
+PLSC 498: Political Survey Design \& Analysis, Spring 2022, Penn State University
+
 PLSC 414: Dictators and Their Demise, Summer 2020, Penn State University
 
 * [Syllabus](syllabus414.pdf)
