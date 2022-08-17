@@ -19,6 +19,9 @@ pre {
 
 PLSC 498: Political Survey Design \& Analysis, Spring 2022, Penn State University
 
+* [Syllabus](syllabus498.pdf)
+* Student Evaluation Mean: 6.3/7
+
 PLSC 414: Dictators and Their Demise, Summer 2020, Penn State University
 
 * [Syllabus](syllabus414.pdf)
