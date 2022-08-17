@@ -11,26 +11,40 @@
 
 
 
-<title>research.utf8</title>
+<title>research.knit</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -43,32 +57,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -79,10 +69,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -99,40 +85,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 64px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h2 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h3 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h4 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h5 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h6 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -160,7 +122,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -172,7 +134,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -183,10 +145,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -198,7 +173,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -265,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -307,7 +281,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="https://polisci.la.psu.edu/people/mzp36">
+  <a href="https://www.umass.edu/sbs/data-analytics-and-computational-social-science-program/people/staff">
     <span class="fa fa-tree"></span>
      
   </a>
@@ -317,7 +291,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -339,21 +313,53 @@ pre {
 </style>
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
 <p><font size='5'><b> Publications </b></font></p>
-<p>Park, Hyun Joon, Sara Chari Francisco, <b>M. Rosemary Pang</b>, Lulu Peng, and Guanqing Chi. 2021. ``Exposure to Anti-Black lives matter movement and obesity of the Black population.” Published online in <em>Social Science &amp; Medicine</em> <a href="https://doi.org/10.1016/j.socscimed.2021.114265">Link</a></p>
-<p>Ma, Deyong, and <b>M. Rosemary Pang</b>. 2017. ``The Rise and Fall of Electoral Democracy: A Social Evolutionary Approach to Direct Election Experiments in Local China.” <em>Journal of Chinese Political Science</em>, 22 (4), pp. 601-624 <a href="https://link.springer.com/article/10.1007/s11366-017-9510-y">Link</a></p>
-<p><b>M. Rosemary Pang</b>. 2017. ``Book Review. Bruce J. Dickson, The Dictator’s Dilemma: The Chinese Communist Party’s Strategy for Survival.” <em>Journal of Asian Politics and History</em>. Fall 2017, No. 10</p>
+<p>Huang, Guan, and <b>M. Rosemary Pang</b>. 2022. ``How a
+non-democratic regime maintains its legitimacy over time: A study of
+changes in Chinese Communist Party legitimacy after 1949.’’ Pubshied
+online in <em>Asian Journal of Comparative Politics</em> <a
+href="https://doi.org/10.1177/20578911221078030">Link</a></p>
+<p>Park, Hyun Joon, Sara Chari Francisco, <b>M. Rosemary Pang</b>, Lulu
+Peng, and Guanqing Chi. 2021. ``Exposure to Anti-Black lives matter
+movement and obesity of the Black population.” Published online in
+<em>Social Science &amp; Medicine</em> <a
+href="https://doi.org/10.1016/j.socscimed.2021.114265">Link</a></p>
+<p>Ma, Deyong, and <b>M. Rosemary Pang</b>. 2017. ``The Rise and Fall of
+Electoral Democracy: A Social Evolutionary Approach to Direct Election
+Experiments in Local China.” <em>Journal of Chinese Political
+Science</em>, 22 (4), pp. 601-624 <a
+href="https://link.springer.com/article/10.1007/s11366-017-9510-y">Link</a></p>
+<p><b>M. Rosemary Pang</b>. 2017. ``Book Review. Bruce J. Dickson, The
+Dictator’s Dilemma: The Chinese Communist Party’s Strategy for
+Survival.” <em>Journal of Asian Politics and History</em>. Fall 2017,
+No. 10</p>
 <p><font size='5'><b> Research in Progress </b></font></p>
-<p>``How Ruling Party Institutionalization Influences Corruption’s Effects on Protests?”</p>
-<p>``Unhappy Voters and Where to Find Them: An Analysis of Chinese University Students’ Understanding of Democracy and Voting Behavior.”</p>
-<p>``International Mudslinging in Vain: An Experiment of COVID- Related Propaganda and Overseas Nationals’ Support for Autocratic Government.” (with Jia Li)</p>
+<p>``How Ruling Party Institutionalization Influences Corruption’s
+Effects on Protests?”</p>
+<p>``Unhappy Voters and Where to Find Them: An Analysis of Chinese
+University Students’ Understanding of Democracy and Voting
+Behavior.”</p>
+<p>``International Mudslinging in Vain: An Experiment of COVID- Related
+Propaganda and Overseas Nationals’ Support for Autocratic Government.”
+(with Jia Li)</p>
 <p><font size='5'><b> Online Contributions </b></font></p>
 <ul>
 <li>In Chinese
 <ul>
-<li><a href="https://chuansongme.com/n/1509213751415">世界价值观调查的跨国可比性讨论</a> ``A discussion on whether World Value Survey data is comparable cross-country&quot;</li>
-<li><a href="https://chuansongme.com/n/1513400251021">多层次贝叶斯模型在跨国时间序列分析中的应用</a> ``The application of multi-level Bayes models using cross-sectional time series data&quot;</li>
-<li><a href="https://mp.weixin.qq.com/s/EqYG9cRK2nM5xGgRawIKYQ">当我们测量腐败时，我们在测量什么?</a> ``What are we actually measuring when we measure corruption?&quot;</li>
-<li><a href="https://mp.weixin.qq.com/s/siD_viqcx_5uRfIO5oQjBw">社会科学中使用网络数据的挑战和解决办法</a> ``The challenges and solutions of using online data in social science&quot;</li>
+<li><a
+href="https://chuansongme.com/n/1509213751415">世界价值观调查的跨国可比性讨论</a>
+``A discussion on whether World Value Survey data is comparable
+cross-country”</li>
+<li><a
+href="https://chuansongme.com/n/1513400251021">多层次贝叶斯模型在跨国时间序列分析中的应用</a>
+``The application of multi-level Bayes models using cross-sectional time
+series data”</li>
+<li><a
+href="https://mp.weixin.qq.com/s/EqYG9cRK2nM5xGgRawIKYQ">当我们测量腐败时，我们在测量什么?</a>
+``What are we actually measuring when we measure corruption?”</li>
+<li><a
+href="https://mp.weixin.qq.com/s/siD_viqcx_5uRfIO5oQjBw">社会科学中使用网络数据的挑战和解决办法</a>
+``The challenges and solutions of using online data in social
+science”</li>
 </ul></li>
 </ul>
 
@@ -366,7 +372,7 @@ pre {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -384,7 +390,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
