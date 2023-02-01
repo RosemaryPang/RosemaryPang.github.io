@@ -15,56 +15,30 @@ pre {
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<font size='5'><b> Teaching Experience </b></font>
+<font size='5'><b> Undergraduate Teaching </b></font>
 
-PLSC 498: Political Survey Design \& Analysis, Spring 2022, Penn State University
+[Political Survey Design \& Analysis](syllabus498.pdf)
 
-* [Syllabus](syllabus498.pdf)
-* Student Evaluation Mean: 6.3/7
+[Dictators and Their Demise](syllabus414.pdf)
 
-PLSC 414: Dictators and Their Demise, Summer 2020, Penn State University
+[Governments of the World](syllabus141.pdf)
 
-* [Syllabus](syllabus414.pdf)
-* Student Evaluation Mean: 7/7
+[Introduction to Environmental Policy – Distance Learning](POL223summer2015.pdf)
 
-POL 141: Governments of the World, Spring 2016, Purdue University
 
-* [Syllabus](syllabus141.pdf)
-* Student Evaluation Mean: 3.6/5
+<font size='5'><b> Graduate Teaching </b></font>
 
-POL223 Introduction to Environmental Policy – Distance Learning, Purdue University
+Data Science Fundamentals 
 
-* [Syllabus](POL223summer2015.pdf)
-* Student Evaluation Mean: 4/5
+[Introduction to Quantitative Analysis](603_Spring2023.pdf)
 
-<font size='5'><b> Guest Lectures </b></font>
+[Survey Research Methods](394/695_Spring2023.pdf)
 
-Comparative Politics 
+Text as Data
 
-* Varieties of dictators
-* Corruption in China
 
-Survey Data Analysis 
+<font size='5'><b> Invited Lectures and Presentations </b></font>
 
-* Missing data in survey analysis
-
-Environmental Policy 
-
-* Environmental leadership
-* Civil society and community based conservation
-* Free trade and environment
-* Environmental policies in different regime types
-* Energy policy
-* Risk perceptions and assessment
-* Apply market principles to environmental policy
-
-International Relations 
-
-* Human rights
-* Mid-term review session
-* Realism
-* Introducing regime types
-
-<font size='5'><b> Invited Talks </b></font>
-
-Measurement in Political Science: Traditional and Big Data Approaches (China University of Political Science and Law; Northeastern University, China)
+* ``Corruption in China'' (Whitworth University)
+* ``Measurement in Political Science: Traditional and Big Data Approaches'' (Northeastern University, China)
+* ``Measurement in Political Science: Traditional and Big Data Approaches'' (China University of Political Science and Law)
