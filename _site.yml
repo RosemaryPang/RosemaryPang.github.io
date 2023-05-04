@@ -4,7 +4,7 @@ navbar:
   title: "M. Rosemary Pang"
   left:
     - text: "Home"
-      href: home.html
+      href: index.html
     - text: "Book Project"
       href: book.html
     - text: "Research"
