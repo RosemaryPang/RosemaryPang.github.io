@@ -1,5 +1,7 @@
 ---
+pagetitle: Teaching
 ---
+
 <style type="text/css">
 
 body, td {

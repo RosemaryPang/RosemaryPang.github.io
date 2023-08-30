@@ -1,5 +1,6 @@
 ---
 title: How Authoritarian Party Institutionalization Influences the Effects of Corruption
+pagetitle: Book Project
 ---
 <style type="text/css">
 
