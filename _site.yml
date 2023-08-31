@@ -21,7 +21,7 @@ navbar:
     - icon: fa-google
       href: https://scholar.google.com/citations?user=YeBvEPcAAAAJ&hl=en&oi=ao 
     - icon: fa-tree
-      href: https://www.umass.edu/sbs/data-analytics-and-computational-social-science-program/people/staff
+      href: https://www.umass.edu/social-sciences/academics/dacss/people
     
 output: 
   html_document:
