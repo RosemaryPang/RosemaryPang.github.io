@@ -34,7 +34,7 @@ Data Science Fundamentals
 
 [Introduction to Quantitative Analysis](603_Spring2023.pdf)
 
-[Survey Research Methods](394/695_Spring2023.pdf)
+[Survey Research Methods](695_Spring2023.pdf)
 
 [Text as Data](TAD_Fall2023.pdf) ([Tutorials](https://rosemarypang.com/Text_as_Data_Fall2023/))
 
