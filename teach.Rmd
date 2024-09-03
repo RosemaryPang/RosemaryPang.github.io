@@ -30,7 +30,7 @@ pre {
 
 <font size='5'><b> Graduate Teaching </b></font>
 
-Data Science Fundamentals 
+[Data Science Fundamentals](601_Spring24.pdf) 
 
 [Introduction to Quantitative Analysis](603_Spring2023.pdf)
 
@@ -38,7 +38,7 @@ Data Science Fundamentals
 
 [Text as Data](TAD_Fall2023.pdf) ([Tutorials](https://rosemarypang.com/Text_as_Data_Fall2024/))
 
-[Causal Inference](Spring 2025)
+Causal Inference (Spring 2025)
 
 <font size='5'><b> Invited Lectures and Presentations </b></font>
 
