@@ -36,8 +36,9 @@ Data Science Fundamentals
 
 [Survey Research Methods](695_Spring2023.pdf)
 
-[Text as Data](TAD_Fall2023.pdf) ([Tutorials](https://rosemarypang.com/Text_as_Data_Fall2023/))
+[Text as Data](TAD_Fall2023.pdf) ([Tutorials](https://rosemarypang.com/Text_as_Data_Fall2024/))
 
+[Causal Inference](Spring 2025)
 
 <font size='5'><b> Invited Lectures and Presentations </b></font>
 
